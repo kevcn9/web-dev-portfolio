@@ -16,7 +16,7 @@ with javascript restrictions
 ## Technologies that I Used
 - HTML
 - CSS
-- 
+- JavaScript
 
 **Links:** [https://web.njit.edu/~kv398/Project1CheckBox.html](url), [https://web.njit.edu/~kv398/Project1DropDown.html](url), and [https://web.njit.edu/~kv398/Project1RadioButton.html](url)
 
