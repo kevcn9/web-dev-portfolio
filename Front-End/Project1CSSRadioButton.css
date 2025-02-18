@@ -1,0 +1,48 @@
+body
+{
+    background-size: cover;
+    background-image: no-repeat;
+}
+
+div
+{
+    border: 10px solid rgb(204, 247, 49);
+    font-size: larger;
+    color: rgb(2, 36, 2);
+    margin: 15% auto;
+    text-align: center;
+    width: 50%;
+    background-color: rgb(142, 151, 57);
+    padding: 10px;
+    opacity: .80;
+}
+
+input[type="submit"]
+{
+    border: 3px solid rgb(6, 41, 2);
+    border-radius: 4em;
+    background-color: rgb(112, 114, 102);
+    font-size: medium;
+}
+
+input[type="reset"]
+{
+    border: 3px solid rgb(6, 41, 2);
+    border-radius: 4em;
+    background-color: rgb(112, 114, 102);
+    font-size: medium;
+
+}
+
+
+h1
+{
+    color: rgb(6, 41, 2);
+    margin: 0;
+}
+
+b.plumberFirstName, b.plumberLastName, b.plumberID, b.plumberPassword, b.plumberPhone, b.plumberEmail
+{
+    padding-right: 2em;
+}
+

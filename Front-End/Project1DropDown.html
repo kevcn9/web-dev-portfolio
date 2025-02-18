@@ -1,0 +1,66 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN""http://www.w3.org/TR/html4/loose.dtd">
+<html>
+	<head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <link rel="stylesheet" href="Project1CSSDropDown.css">
+        <title>Project1</title>
+    </head>
+    <body background="https://images.pexels.com/photos/16440312/pexels-photo-16440312/free-photo-of-cat-touching-tap-water-running-from-sink.jpeg">
+        <div>
+            <form action="">
+                <h1><b>Perfect Plumbing Pros</b></h1>
+                <p>
+                    <label for="firstName"><b class="plumberFirstName">Plumber's First Name:</b></label>
+                    <input type="text" id="firstName" name="firstName" placeholder="Example: Kevin" required/> <b>REQUIRED</b>
+                </p>
+
+                <p>
+                    <label for="lastName"><b class="plumberLastName">Plumber's Last Name:</b></label>
+                    <input type="text" id="lastName" name="lastName" placeholder="Example: Vojtek" required/> <b>REQUIRED</b>
+                </p>
+
+                <p>
+                    <label for="password"><b class="plumberPassword">Plumber's Password:</b></label>
+                    <input type="text" id="password" name="password" placeholder="Example: 123Password" required/> <b>REQUIRED</b>
+                </p>
+
+                <p>
+                    <label for="Identification"><b class="plumberID">Plumber's ID #:</b></label>
+                    <input type="text" id="Identification" name="Identification" placeholder="Example: 2341" required/> <b>REQUIRED</b>
+                </p>
+
+                <p>
+                    <label for="phone"><b class="plumberPhone">Plumber's Phone #:</b></label>
+                    <input type="tel" id="phone" name="phone"  placeholder="555-555-5555"required/> <b>REQUIRED</b>
+                </p>
+
+                <p>
+                    <label for="email"><b class="plumberEmail">Plumber's Email:</b></label>
+                    <input type="email" id="email" name="email" placeholder="Example: Me@Plumb.com"/><b></b>
+                </p>
+
+                <p>
+                    <label for="requestBox"></label>
+                    <input type="checkbox" name="requestBox" id="requestBox" value="Yes"/><b>Check The Box To Request An Email Confirmation</b>
+                </p>
+                
+                <label for="PlumberDropDown"><b>Select Transaction:</b></label>
+                <select name="PlumberDropDown">
+                    <option value="plumberAcount">Search A Plumber's Accounts </option>
+                    <option value="bookAppointment" >Book A Customer's Appointment </option>
+                    <option value="cancelAppointment" >Cancel A Customer's Appointment </option>
+                    <option value="supplyRequest"  >Request Supplies </option>
+                    <option value="updateRecords" >Update a Customer's Records </option>
+                    <option value="createCustomer" >Create A New Customer</option>
+                </select>
+
+                <p>
+                    <label for="buttonSubmit"></label>
+                    <input type="submit" name="buttonSubmit" id="buttonSubmit">
+                    <label for="buttonReset"></label>
+                    <input type = "reset" name="buttonReset" id="buttonReset"> 
+                </p>
+            </form>
+        </div>
+    </body>
+</html>
