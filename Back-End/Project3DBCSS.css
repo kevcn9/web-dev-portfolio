@@ -1,0 +1,45 @@
+body
+{
+    background-size: cover;
+    background-image: no-repeat;
+}
+
+div
+{
+    border: 10px solid rgb(204, 247, 49);
+    font-size: larger;
+    color: rgb(2, 36, 2);
+    margin: 15% auto;
+    text-align: center;
+    width: 65%;
+    background-color: rgb(142, 151, 57);
+    padding: 10px;
+    opacity: .80;
+}
+
+button
+{
+    cursor:pointer;
+    border: 3px solid rgb(6, 41, 2);
+    border-radius: 4em;
+    background-color: rgb(112, 114, 102);
+    font-size: medium;
+}
+
+button:hover
+{
+    border-color:blueviolet;
+    background-color: aquamarine;
+}
+
+h1
+{
+    color: rgb(6, 41, 2);
+    text-align: center;
+}
+
+table
+{
+    margin: 0 auto; 
+}
+
